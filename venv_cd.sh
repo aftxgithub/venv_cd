@@ -6,7 +6,7 @@ _venv_cd() {
 		if [ -f "$dir/bin/activate" ]
 		then
 			# source the virtual environment
-			echo "Environment found in $dir, sourcing..."
+			echo "Environment found in '$dir', sourcing..."
 			. $dir/bin/activate
 		fi
 	done
